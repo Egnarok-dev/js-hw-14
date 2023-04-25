@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: min(100% - 4rem, 20rem);
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.container .boxLeft,
+.boxRight {
+  display: block;
+  margin: 15px;
+}
+
+.boxRight:last-child img{
+  width: 55px;
+}
+
+.container .btn a {
+  width: 200px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Noto Nastaliq Urdu', serif;
+  color: rgb(3, 77, 80);
+  background-image: url(../img/btn.jpg);
+  background-size: cover;
+  border: 5px solid rgb(3, 77, 80);
+  padding: 30px;
+  margin: auto;
+  transition: all 1.5s;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 1px black;
+}
+
+.container .btn:hover a{
+    /* background-image: url(../img/wavy.jpg);
+    background-position: center;
+    background-size: cover; */
+    
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    
+    margin: auto;
+}
+
+
+
